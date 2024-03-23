@@ -3,7 +3,7 @@ import { ThirdSectionList } from "../../../data/data"
 function ThirdSection() {
   return (
     <>
-    <div className="ThirdSectionParent flex flex-wrap   md:justify-center -px-4 md:bg-red-400 lg:bg-green-500 ">
+    <div className="ThirdSectionParent flex flex-wrap   md:justify-center -px-4  ">
   
     {ThirdSectionList.map((item)=>(
     <div key={item.id} className=' bg-white  md:w-full  lg:w-1/3  lg:py-10 flex flex-col lg:flex-row lg:justify-between my-5 rounded-2xl mx-3 md:px-1'>
